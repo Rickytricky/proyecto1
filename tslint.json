@@ -85,6 +85,7 @@
     "prefer-const": true,
     "quotemark": [
       true,
+      "double",
       "single"
     ],
     "radix": true,
