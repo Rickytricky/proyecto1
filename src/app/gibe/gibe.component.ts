@@ -6,22 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./gibe.component.css']
 })
 export class GibeComponent implements OnInit {
-  // numero: number;
-  // palabra: string;
-  // funcion: string;
-  // objeto: any;
-
-  constructor() { 
-    // this.objeto = {
-    //   nombre: "ricardo",
-    //   apellido: "Calderon"
-    // }
-  }
-
-  regresarValor() {
-    return true;
-  }
-
+  constructor() {}
+  
   ngOnInit() {
   }
 

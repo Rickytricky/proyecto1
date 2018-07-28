@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./productos.component.css']
 })
 export class ProductosComponent implements OnInit {
-
-  constructor() { }
+  productos: number;
+  constructor() {
+    // this.productos = 22;
+   }
 
   ngOnInit() {
   }

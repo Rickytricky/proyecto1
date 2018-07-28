@@ -6,16 +6,17 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./info.component.css']
 })
 export class InfoComponent implements OnInit {
-  @Input() texto:string;
-  constructor() { }
+  texto: string;
+  constructor() {
+      this.texto = 'Bievenido sea usted! \nDisfrute su estancia :)';
+   }
 
   ngOnInit() {
   }
 
   alertaClick() {
-    this.texto = "";
-    this.texto = prompt("Favor de ingresar un valor");
-    return console.log(this.texto);
+    alert(this.texto);
+    console.log(this.texto);
   }
 
 }
